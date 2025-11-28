@@ -4,9 +4,9 @@ import random
 import matplotlib.pyplot as plt
 
 
-GCP_URL = "https://functionn-768541095364.asia-south2.run.app"
-AZURE_URL = "https://functionn-btfvecc9dpbhdrh0.centralindia-01.azurewebsites.net/api/HttpTrigger1?code=4ri4Db-6E7u3li4EIULKktu1_0lTSQ82IPzdZ_cN7VZLAzFuJXji9Q=="
-AWS_URL = "https://r4rpjimdch.execute-api.us-east-1.amazonaws.com/default/fog_pbl"   
+GCP_URL = ""
+AZURE_URL = ""
+AWS_URL = ""   
 
 TOTAL_RUNS = 10
 
@@ -58,3 +58,4 @@ plt.grid(True)
 plt.legend()
 plt.tight_layout()
 plt.show()
+
